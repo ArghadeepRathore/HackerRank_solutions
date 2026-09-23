@@ -1,0 +1,15 @@
+{
+  "title": "Athlete Sort",
+  "title_slug": "python-sort-sort",
+  "difficulty": "Medium",
+  "language": "python3",
+  "url": "https://www.hackerrank.com/challenges/python-sort-sort/problem",
+  "tags": [],
+  "description": "You are given a spreadsheet that contains a list of  athletes and their details (such as age, height, weight and so on). You are required to sort the data based on the th attribute and print the final resulting table. Follow the example given below for better understanding.\n\n![image](https://s3.amazonaws.com/hr-assets/0/1514874268-6fabad07aa-AthleteSort2.png)\n\nNote that  is indexed from  to , where  is the number of attributes.\n\n**Note**: If two attributes are the same for different rows, for example, if two atheletes are of the same age, print the row that appeared first in the input.\n\n**Input Format**\n\nThe first line contains  and  separated by a space. **\nThe next  lines each contain  elements.\n\nThe last line contains .\n\nConstraints**\n\n **\n\nEach element\n\nOutput Format**\n\nPrint the  lines of the sorted table. Each line should contain the space separated elements. Check the sample below for clarity.\n\n**Sample Input 0**\n\n```\n5 3\n10 2 5\n7 1 0\n9 9 9\n1 23 12\n6 5 9\n1\n\n```\n\n**Sample Output 0**\n\n```\n7 1 0\n10 2 5\n6 5 9\n9 9 9\n1 23 12\n\n```\n\n**Explanation 0**\n\nThe details are sorted based on the second attribute, since  is zero-indexed.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-23T06:55:21.994Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "python-sort-sort"
+}
