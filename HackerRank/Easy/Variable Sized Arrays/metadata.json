@@ -1,0 +1,15 @@
+{
+  "title": "Variable Sized Arrays",
+  "title_slug": "variable-sized-arrays",
+  "difficulty": "Easy",
+  "language": "cpp",
+  "url": "https://www.hackerrank.com/challenges/variable-sized-arrays/problem",
+  "tags": [],
+  "description": "Consider an -element array, , where each index  in the array contains a reference to an array of  integers (where the value of  varies from array to array). See the *Explanation* section below for a diagram.\n\nGiven , you must answer  queries. Each query is in the format `i j`, where  denotes an index in array  and  denotes an index in the array located at . For each query, find and print the value of element  in the array at location  on a new line.\n\nClick [here](http://www.cplusplus.com/reference/vector/vector/) to know more about how to create variable sized arrays in C++.\n\n**Input Format**\n\nThe first line contains two space-separated integers denoting the respective values of  (the number of variable-length arrays) and  (the number of queries). **\nEach line  of the  subsequent lines contains a space-separated sequence in the format `k a[i]0 a[i]1 … a[i]k-1` describing the -element array located at .\n\nEach of the  subsequent lines contains two space-separated integers describing the respective values of  (an index in array ) and  (an index in the array referenced by ) for a query.\n\nConstraints**\n\n*\n\n*\n\n*\n\n*\n\n*\n\n*\n\n* All indices in this challenge are zero-based.\n\n* All the given numbers are non negative and are not greater than\n\n**Output Format**\n\nFor each pair of  and  values (i.e., for each query), print a single integer that denotes the element located at index  of the array referenced by . There should be a total of  lines of output.\n\n**Sample Input**\n\n```\n2 2\n3 1 5 4\n5 1 2 8 9 3\n0 1\n1 3\n\n```\n\n**Sample Output**\n\n```\n5\n9\n\n```\n\n**Explanation**\n\nThe diagram below depicts our assembled Sample Input:\n\n![variable-length-arrays.png](https://s3.amazonaws.com/hr-challenge-images/14507/1476906485-2c93045320-variable-length-arrays.png)\n\nWe perform the following  queries:\n\n* Find the array located at index , which corresponds to . We must print the value at index  of this array which, as you can see, is .\n\n* Find the array located at index , which corresponds to . We must print the value at index  of this array which, as you can see, is .",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-23T06:59:04.914Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "variable-sized-arrays"
+}
