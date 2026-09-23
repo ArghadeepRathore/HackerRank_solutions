@@ -1,0 +1,15 @@
+{
+  "title": "For Loop",
+  "title_slug": "c-tutorial-for-loop",
+  "difficulty": "Easy",
+  "language": "cpp",
+  "url": "https://www.hackerrank.com/challenges/c-tutorial-for-loop/problem",
+  "tags": [],
+  "description": "A *for* loop is a programming language statement which allows code to be repeatedly executed.\n\nThe syntax is\n\n```\nfor ( <expression_1> ; <expression_2> ; <expression_3> )\n    <statement>\n\n```\n\n* *expression_1* is used for intializing variables which are generally used for controlling the terminating flag for the loop.\n\n* *expression_2* is used to check for the terminating condition. If this evaluates to false, then the loop is terminated.\n\n* *expression_3* is generally used to update the flags/variables.\n\nA sample loop is\n\n```\nfor(int i = 0; i < 10; i++) {\n    ...\n}\n\n```\n\nIn this challenge, you will use a for loop to increment a variable through a range.\n\n**Input Format**\n\nYou will be given two positive integers,  and  (), separated by a newline.\n\n**Output Format**\n\nFor each integer  in the inclusive interval :\n\n* If , then print the English representation of it in lowercase. That is \"one\" for , \"two\" for , and so on.\n\n* Else if  and it is an even number, then print \"even\".\n\n* Else if  and it is an odd number, then print \"odd\".\n\n**Note:**\n\n**Sample Input**\n\n```\n8\n11\n\n```\n\n**Sample Output**\n\n```\neight\nnine\neven\nodd\n\n```",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-23T07:01:07.100Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "c-tutorial-for-loop"
+}
