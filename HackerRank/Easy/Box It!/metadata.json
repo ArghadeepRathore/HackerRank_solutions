@@ -1,0 +1,15 @@
+{
+  "title": "Box It!",
+  "title_slug": "box-it",
+  "difficulty": "Easy",
+  "language": "cpp",
+  "url": "https://www.hackerrank.com/challenges/box-it/problem",
+  "tags": [],
+  "description": "Design a class named *Box* whose dimensions are integers and private to the class. The dimensions are labelled: length , breadth , and height .\n\nThe default constructor of the class should initialize , , and  to .\n\nThe parameterized constructor *Box(int length, int breadth, int height)* should initialize *Box*'s  and  to length, breadth and height.\n\nThe copy constructor *Box**Box* ) should set  and  to 's  and , respectively.\n\nApart from the above, the class should have  functions:\n\n* *int getLength()* - Return box's length\n\n* *int getBreadth()* - Return box's breadth\n\n* *int getHeight()* - Return box's height\n\n* *long long CalculateVolume()* - Return the volume of the box\n\nOverload the operator  for the class *Box*. *Box*   *Box*   if:\n\n*  <\n\n*  <  and ==\n\n*  <  and == and ==\n\nOverload operator  for the class *Box()*. **\nIf  is an object of class *Box*:\n\n should print ,  and  on a single line separated by spaces.\n\nFor example,\n\n```\nBox b1; // Should set b1.l = b1.b = b1.h = 0;\nBox b2(2, 3, 4); // Should set b1.l = 2, b1.b = 3, b1.h = 4;\nb2.getLength();\t// Should return 2\nb2.getBreadth(); // Should return 3\nb2.getheight();\t// Should return 4\nb2.CalculateVolume(); // Should return 24\nbool x = (b1 < b2);\t// Should return true based on the conditions given\ncout<<b2; // Should print 2 3 4 in order.\n\n```\n\nConstraints**\n\nTwo boxes being compared using the  operator will not have all three dimensions equal.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-23T06:58:37.507Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "box-it"
+}
