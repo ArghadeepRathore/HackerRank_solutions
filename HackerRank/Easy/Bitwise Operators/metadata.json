@@ -1,0 +1,15 @@
+{
+  "title": "Bitwise Operators",
+  "title_slug": "bitwise-operators-in-c",
+  "difficulty": "Easy",
+  "language": "c",
+  "url": "https://www.hackerrank.com/challenges/bitwise-operators-in-c/problem",
+  "tags": [],
+  "description": "In this challenge, you will use logical bitwise operators.  All data is stored in its binary representation.  The logical operators, and C language, use  to represent true and  to represent false. The logical operators compare bits in two numbers and return true or false,  or , for each bit compared.\n\n*\n`Bitwise AND operator &` The output of bitwise AND is *1* if the corresponding bits of two operands is *1*. If either bit of an operand is *0*, the result of corresponding bit is evaluated to *0*. It is denoted by &.\n\n*\n`Bitwise OR operator |` The output of bitwise OR is *1* if at least one corresponding bit of two operands is *1*. It is denoted by |.\n\n*\n`Bitwise XOR (exclusive OR) operator ^` The result of bitwise XOR operator is *1* if the corresponding bits of two operands are opposite. It is denoted by .\n\nFor example, for integers 3 and 5,\n\n```\n3 = 00000011 (In Binary)\n5 = 00000101 (In Binary)\n\nAND operation        OR operation        XOR operation\n  00000011             00000011            00000011\n& 00000101           | 00000101          ^ 00000101\n  ________             ________            ________\n  00000001  = 1        00000111  = 7       00000110  = 6\n\n```\n\nYou will be given an integer , and a threshold, i1nnik$.  Print the results of the and, or and exclusive or comparisons on separate lines, in that order.\n\n**Example** **\n\nThe results of the comparisons are below:\n\n```\na b   and or xor\n1 2   0   3  3\n1 3   1   3  2\n2 3   2   3  1\n\n```\n\nFor the `and` comparison, the maximum is .  For the `or` comparison, none of the values is less than , so the maximum is .  For the `xor` comparison, the maximum value less than  is .  The function should print:\n\n```\n2\n0\n2\n\n```\n\nFunction Description**\n\nComplete the *calculate_the_maximum* function in the editor below.\n\n*calculate_the_maximum* has the following parameters:\n\n* *int n:* the highest number to consider\n\n* *int k:* the result of a comparison must be lower than this number to be considered\n\n**Prints**\n\nPrint the maximum values for the `and`, `or` and `xor` comparisons, each on a separate line.\n\n**Input Format**\n\nThe only line contains  space-separated integers,  and .\n\n**Constraints**\n\n*\n\n*\n\n**Sample Input 0**\n\n```\n5 4\n\n```\n\n**Sample Output 0**\n\n```\n2\n3\n3\n\n```\n\n**Explanation 0**\n\nAll possible values of  and  are:\n\n*\n\n*\n\n*\n\n*\n\n*\n\n*\n\n*\n\n*\n\n*\n\n*\n\nThe maximum possible value of  that is also  is , so we print  on first line.\n\n*\nThe maximum possible value of  that is also  is , so we print  on second line.\n\n*\nThe maximum possible value of  that is also  is , so we print  on third line.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-23T07:03:26.774Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "bitwise-operators-in-c"
+}
