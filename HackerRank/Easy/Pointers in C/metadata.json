@@ -1,0 +1,15 @@
+{
+  "title": "Pointers in C",
+  "title_slug": "pointer-in-c",
+  "difficulty": "Easy",
+  "language": "c",
+  "url": "https://www.hackerrank.com/challenges/pointer-in-c/problem",
+  "tags": [],
+  "description": "**Objective**\n\nIn this challenge, you will learn to implement the basic functionalities of pointers in C. A [pointer](http://en.wikipedia.org/wiki/Pointer_%28computer_programming%29) in C is a way to share a memory address among different contexts (primarily functions). They are primarily used whenever a function needs to modify the content of a variable that it does not own. **\n\nIn order to access the memory address of a variable, , prepend it with  sign. For example, `&val` returns the memory address of .\n\nThis memory address is assigned to a pointer and can be shared among various functions. For example,  will assign the memory address of  to pointer . To access the content of the memory to which the pointer points, prepend it with a `*`. For example, `*p` will return the value reflected by  and any modification to it will be reflected at the source ().\n\n```\n\tvoid increment(int *v) {\n        (*v)++;\n    }\n      \tint main() {\n        int a;\n        scanf(\"%d\", &a);\n        increment(&a);\n        printf(\"%d\", a);\n    \treturn 0;\n    }\n\n```\n\nTask**\n\nComplete the function `void update(int *a,int *b)`.  It receives two integer pointers, int* a and int* b.  Set the value of  to their sum, and  to their absolute difference.  There is no return value, and no return statement is needed.\n\n*\n\n*\n\n**Input Format**\n\nThe input will contain two integers,  and , separated by a newline.\n\n**Output Format**\n\nModify the two values in place and the code stub main() will print their values.\n\nNote: Input/ouput will be automatically handled. You only have to complete the function described in the 'task' section.\n\n**Sample Input**\n\n```\n4\n5\n\n```\n\n**Sample Output**\n\n```\n9\n1\n\n```\n\n**Explanation**\n\n*\n\n*",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-23T07:03:16.899Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "pointer-in-c"
+}
