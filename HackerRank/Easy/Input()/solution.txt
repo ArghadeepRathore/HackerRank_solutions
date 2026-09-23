@@ -1,0 +1,9 @@
+// HackerRank Problem: Input()
+// Link: https://www.hackerrank.com/challenges/input/problem
+// Difficulty: Easy
+// Language: pypy3
+
+x, k = map(int, input().split())
+S = input()
+
+print(eval(S) == k)
