@@ -1,0 +1,6 @@
+// HackerRank Problem: Hello World
+// Link: https://www.hackerrank.com/challenges/fp-hello-world/problem
+// Difficulty: Easy
+// Language: clojure
+
+(print "Hello World")
