@@ -1,0 +1,15 @@
+{
+  "title": "Validating UID ",
+  "title_slug": "validating-uid",
+  "difficulty": "Easy",
+  "language": "python3",
+  "url": "https://www.hackerrank.com/challenges/validating-uid/problem",
+  "tags": [],
+  "description": "*ABCXYZ* company has up to  employees. **\nThe company decides to create a unique identification number (UID) for each of its employees.\n\nThe company has assigned you the task of validating all the randomly generated UIDs.\n\nA valid UID must follow the rules below:\n\n* It must contain at least  uppercase English alphabet characters.\n\n* It must contain at least  digits ( - ).\n\n* It should only contain alphanumeric characters ( - ,  -  &  - ).\n\n* No character should repeat.\n\n* There must be exactly  characters in a valid UID.\n\nInput Format**\n\nThe first line contains an integer , the number of test cases. **\nThe next  lines contains an employee's UID.\n\nOutput Format**\n\nFor each test case, print 'Valid' if the UID is valid. Otherwise, print 'Invalid', on separate lines. Do not print the quotation marks.\n\n**Sample Input**\n\n```\n2\nB1CD102354\nB1CDEF2354\n\n```\n\n**Sample Output**\n\n```\nInvalid\nValid\n\n```\n\n**Explanation**\n\n**B1CD102354**:  is repeating →  Invalid **\nB1CDEF2354**: Valid",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-23T06:54:26.761Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "validating-uid"
+}
