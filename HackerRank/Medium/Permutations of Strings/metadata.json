@@ -1,0 +1,15 @@
+{
+  "title": "Permutations of Strings",
+  "title_slug": "permutations-of-strings",
+  "difficulty": "Medium",
+  "language": "c",
+  "url": "https://www.hackerrank.com/challenges/permutations-of-strings/problem",
+  "tags": [],
+  "description": "Strings are usually ordered in lexicographical order. That means they are ordered by comparing their leftmost different characters. For example,  because . Also  because . If one string is an exact prefix of the other it is lexicographically smaller, e.g., .\n\nGiven an array of strings sorted in lexicographical order, print all of its permutations in strict lexicographical order.  If two permutations look the same, only print one of them.  See the 'note' below for an example.\n\nComplete the function `next_permutation` which generates the permutations in the described order.\n\nFor example, .  The six permutations in correct order are:\n\n```\nab bc cd\nab cd bc\nbc ab cd\nbc cd ab\ncd ab bc\ncd bc ab\n\n```\n\n**Note:** There may be two or more of the same string as elements of . **\nFor example, .  Only one instance of a permutation where all elements match should be printed.  In other words, if , then print either  or  but not both.\n\nA three element array having three distinct elements has six permutations as shown above.  In this case, there are three matching pairs of permutations where  and  are switched.  We only print the three visibly unique permutations:\n\n```\nab ab bc\nab bc ab\nbc ab ab\n\n```\n\nInput Format**\n\nThe first line of each test file contains a single integer , the length of the string array .\n\nEach of the next  lines contains a string .\n\n**Constraints**\n\n*\n\n*\n\n*  contains only lowercase English letters.\n\n**Output Format**\n\nPrint each permutation as a list of space-separated strings on a single line.\n\n**Sample Input 0**\n\n```\n2\nab\ncd\n\n```\n\n**Sample Output 0**\n\n```\nab cd\ncd ab\n\n```\n\n**Sample Input 1**\n\n```\n3\na\nbc\nbc\n\n```\n\n**Sample Output 1**\n\n```\na bc bc\nbc a bc\nbc bc a\n\n```\n\n**Explanation 1**\n\nThis is similar to the **note** above.  Only three of the six permutations are printed to avoid redundancy in output.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-23T06:59:40.514Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "permutations-of-strings"
+}
