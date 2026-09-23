@@ -1,0 +1,15 @@
+{
+  "title": "Detect HTML Tags, Attributes and Attribute Values",
+  "title_slug": "detect-html-tags-attributes-and-attribute-values",
+  "difficulty": "Easy",
+  "language": "python3",
+  "url": "https://www.hackerrank.com/challenges/detect-html-tags-attributes-and-attribute-values/problem",
+  "tags": [],
+  "description": "You are given an *HTML* code snippet of  lines.** Your task is to detect and print all the *HTML* tags, attributes and attribute values.\n\nPrint the detected items in the following format:\n\n```\nTag1\nTag2\n-> Attribute2[0] > Attribute_value2[0]\n-> Attribute2[1] > Attribute_value2[1]\n-> Attribute2[2] > Attribute_value2[2]\nTag3\n-> Attribute3[0] > Attribute_value3[0]\n\n```\n\nThe `->` symbol indicates that the tag contains an attribute. It is immediately followed by the name of the attribute and the attribute value.\n\nThe `>` symbol acts as a separator of attributes and attribute values.\n\nIf an HTML tag has no attribute then simply print the name of the tag.\n\nNote:** Do not detect any *HTML* tag, attribute or attribute value inside the *HTML* comment tags (`<!-- Comments -->`). Comments can be multiline.**\nAll attributes have an attribute value.\n\nInput Format**\n\nThe first line contains an integer , the number of lines in the *HTML* code snippet.**\nThe next  lines contain *HTML* code.\n\nConstraints**\n\n**Output Format**\n\nPrint the *HTML* tags, attributes and attribute values in order of their occurrence from top to bottom in the snippet.**\n\nFormat your answers as explained in the problem statement.\n\nSample Input**\n\n```\n9\n<head>\n<title>HTML</title>\n</head>\n<object type=\"application/x-flash\"\n  data=\"your-file.swf\"\n  width=\"0\" height=\"0\">\n  <!-- <param name=\"movie\" value=\"your-file.swf\" /> -->\n  <param name=\"quality\" value=\"high\"/>\n</object>\n\n```\n\n**Sample Output**\n\n```\nhead\ntitle\nobject\n-> type > application/x-flash\n-> data > your-file.swf\n-> width > 0\n-> height > 0\nparam\n-> name > quality\n-> value > high\n\n```\n\n**Explanation**\n\n* **head** tag: Print the *head* tag only because it has no attribute.**\n\n* title** tag: Print the *title* tag only because it has no attribute.**\n\n* object** tag: Print the *object* tag. In the next  lines, print the attributes *type*, *data*, *width* and                     *height* along with their respective values.**\n\n* <!-- Comment -->** tag: Don't detect anything inside it.**\n\n* param** tag: Print the *param* tag. In the next  lines, print the attributes *name* along with                     their respective *values*.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-23T06:54:34.781Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "detect-html-tags-attributes-and-attribute-values"
+}
