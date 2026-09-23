@@ -1,0 +1,15 @@
+{
+  "title": "Pointer",
+  "title_slug": "c-tutorial-pointer",
+  "difficulty": "Easy",
+  "language": "cpp",
+  "url": "https://www.hackerrank.com/challenges/c-tutorial-pointer/problem",
+  "tags": [],
+  "description": "A [pointer](http://en.wikipedia.org/wiki/Pointer_%28computer_programming%29) in C++ is used to share a memory address among different contexts (primarily functions). They are used whenever a function needs to modify the content of a variable, but it does not have ownership. **\n\nIn order to access the memory address of a variable, , prepend it with  sign. For example, `&val` returns the memory address of .\n\nThis memory address is assigned to a pointer and can be shared among functions. For example,  assigns the memory address of  to pointer . To access the content of the memory pointed to, prepend the variable name with a `*`. For example, `*p` will return the value stored in  and any modification to it will be performed on .\n\n```\nvoid increment(int *v) {\n    (*v)++;\n}\n\nint main() {\n    int a;\n    scanf(\"%d\", &a);\n    increment(&a);\n    printf(\"%d\", a);\n    return 0;\n}\n\n```\n\nFunction Description**\n\nComplete the *update* function in the editor below.\n\n*update* has the following parameters:\n\n* *int *a:* an integer\n\n* *int *b:* an integer\n\n**Returns**\n\n*\nThe function is declared with a `void` return type, so there is no value to return. Modify the values in memory so that  contains their sum and  contains their absoluted difference.\n\n*\n\n*\n\n**Input Format**\n\nInput will contain two integers,  and , separated by a newline.\n\n**Sample Input**\n\n```\n4\n5\n\n```\n\n**Sample Output**\n\n```\n9\n1\n\n```\n\n**Explanation**\n\n*\n\n*",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-23T07:00:54.355Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "c-tutorial-pointer"
+}
