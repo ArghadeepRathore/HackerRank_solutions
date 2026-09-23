@@ -1,0 +1,13 @@
+// HackerRank Problem: Zipped!
+// Link: https://www.hackerrank.com/challenges/zipped/problem
+// Difficulty: Easy
+// Language: pypy3
+
+n, x = map(int, input().split())
+
+marks = []
+for _ in range(x):
+    marks.append(list(map(float, input().split())))
+
+for student in zip(*marks):
+    print(sum(student) / len(student))
