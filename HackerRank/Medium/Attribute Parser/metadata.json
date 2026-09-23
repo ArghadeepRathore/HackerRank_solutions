@@ -1,0 +1,15 @@
+{
+  "title": "Attribute Parser",
+  "title_slug": "attribute-parser",
+  "difficulty": "Medium",
+  "language": "cpp",
+  "url": "https://www.hackerrank.com/challenges/attribute-parser/problem",
+  "tags": [],
+  "description": "This challenge works with a custom-designed markup language *HRML*. In *HRML*, each element consists of a starting and ending tag, and there are attributes associated with each tag. Only starting tags can have attributes. We can call an attribute by referencing the tag, followed by a tilde, '`~`' and the name of the attribute. The tags may also be nested.\n\nThe *opening tags* follow the format:\n\n`<tag-name attribute1-name = \"value1\" attribute2-name = \"value2\" ...>`\n\nThe *closing tags* follow the format:\n\n`</tag-name>`\n\nThe attributes are referenced as:\n\n```\ntag1~value\ntag1.tag2~name\n\n```\n\nGiven the source code in HRML format consisting of  lines, answer  queries. For each query, print the value of the attribute specified. Print *\"Not Found!\"* if the attribute does not exist.\n\n**Example**\n\n```\nHRML listing\n<tag1 value = \"value\">\n<tag2 name = \"name\">\n<tag3 another=\"another\" final=\"final\">\n</tag3>\n</tag2>\n</tag1>\n\nQueries\ntag1~value\ntag1.tag2.tag3~name\ntag1.tag2~value\n\n```\n\nHere, tag2 is nested within tag1, so attributes of tag2 are accessed as `tag1.tag2~<attribute>`.  Results of the queries are:\n\n```\nQuery                 Value\ntag1~value            \"value\"\ntag1.tag2.tag3~name   \"Not Found!\"\ntag1.tag2.tag3~final  \"final\"\n\n```\n\n**Input Format**\n\nThe first line consists of two space separated integers,  and .  specifies the number of lines in the HRML source program.  specifies the number of queries.\n\nThe following  lines consist of either an opening tag with zero or more attributes or a closing tag.  There is a space after the tag-name, attribute-name, '=' and value.There is no space after the last value. *If there are no attributes there is no space after tag name.*\n\n queries follow. Each query consists of string that references an attribute in the source program.More formally, each query is of the form  ~ where  and  are valid tags in the input.\n\n**Constraints**\n\n*\n\n*\n\n* Each line in the source program contains, at most,  characters.\n\n* Every reference to the attributes in the  queries contains at most  characters.\n\n* All tag names are unique and the HRML source program is logically correct, i.e. valid nesting.\n\n* A tag can may have no attributes.\n\n**Output Format**\n\nPrint the value of the attribute for each query. Print \"*Not Found!*\" without quotes if the attribute does not exist.\n\n**Sample Input**\n\n```\n4 3\n<tag1 value = \"HelloWorld\">\n<tag2 name = \"Name1\">\n</tag2>\n</tag1>\ntag1.tag2~name\ntag1~name\ntag1~value\n\n```\n\n**Sample Output**\n\n```\nName1\nNot Found!\nHelloWorld\n\n```",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-23T06:58:51.487Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "attribute-parser"
+}
