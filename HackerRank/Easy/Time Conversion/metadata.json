@@ -1,0 +1,15 @@
+{
+  "title": "Time Conversion",
+  "title_slug": "time-conversion",
+  "difficulty": "Easy",
+  "language": "c",
+  "url": "https://www.hackerrank.com/challenges/time-conversion/problem",
+  "tags": [],
+  "description": "Given a time in [-hour AM/PM format](https://en.wikipedia.org/wiki/12-hour_clock), convert it to military (24-hour) time.\n\nNote:\n- 12:00:00AM on a 12-hour clock is 00:00:00 on a 24-hour clock. **\n- 12:00:00PM on a 12-hour clock is 12:00:00 on a 24-hour clock.\n\nExample**\n\n*\n\nReturn '12:01:00'.\n\n*\n\nReturn '00:01:00'.\n\n**Function Description**\n\nComplete the  function with the following parameter(s):\n\n* : a time in  hour format\n\n**Returns**\n\n* : the time in  hour format\n\n**Input Format**\n\nA single string  that represents a time in -hour clock format (i.e.:  or ).\n\n**Constraints**\n\n* All input times are valid\n\n**Sample Input 0**\n\n```\n07:05:45PM\n\n```\n\n**Sample Output 0**\n\n```\n19:05:45\n\n```",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-23T06:59:53.274Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "time-conversion"
+}
