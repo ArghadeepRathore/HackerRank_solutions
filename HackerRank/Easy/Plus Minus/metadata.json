@@ -1,0 +1,15 @@
+{
+  "title": "Plus Minus",
+  "title_slug": "plus-minus",
+  "difficulty": "Easy",
+  "language": "c",
+  "url": "https://www.hackerrank.com/challenges/plus-minus/problem",
+  "tags": [],
+  "description": "Given an array of integers, calculate the ratios of its elements that are , , and . Print the decimal value of each fraction on a new line with 6 places after the decimal.\n\n**Note:** This challenge introduces precision problems. The test cases are scaled to six decimal places, though answers with absolute error of up to  are acceptable.\n\n**Example** **\n\nThere are  elements: two positive, two negative and one zero.  Their ratios are ,  and .  Results are printed as:\n\n```\n0.400000\n0.400000\n0.200000\n\n```\n\nFunction Description**\n\nComplete the  function with the following parameter(s):\n\n* : an array of integers\n\n**Print** **\n    Print the ratios of positive, negative and  zero values in the array.  Each value should be printed on a separate line with  digits after the decimal.  The function should not return a value.\n\nInput Format**\n\nThe first line contains an integer, , the size of the array. **\nThe second line contains  space-separated integers that describe .\n\nConstraints**\n\n **\n\nSample Input**\n\n```\nSTDIN           Function\n-----           --------\n6               arr[] size n = 6\n-4 3 -9 0 4 1   arr = [-4, 3, -9, 0, 4, 1]\n\n```\n\n**Sample Output**\n\n```\n0.500000\n0.333333\n0.166667\n\n```\n\n**Explanation**\n\nThere are  positive numbers,  negative numbers, and  zero in the array.\n\nThe proportions of occurrence are positive:  , negative:   and zeros:  .",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-23T07:00:22.849Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "plus-minus"
+}
