@@ -1,0 +1,15 @@
+{
+  "title": "The Hurdle Race",
+  "title_slug": "the-hurdle-race",
+  "difficulty": "Easy",
+  "language": "cpp",
+  "url": "https://www.hackerrank.com/challenges/the-hurdle-race/problem",
+  "tags": [],
+  "description": "A video player plays a game in which the character competes in a hurdle race.  Hurdles are of varying heights, and the characters have a maximum height they can jump.  There is a magic potion they can take that will increase their maximum jump height by  unit for each dose.  How many doses of the potion must the character take to be able to jump all of the hurdles.  If the character can already clear all of the hurdles, return .\n\n**Example** **\n\nThe character can jump  unit high initially and must take  doses of potion to be able to jump all of the hurdles.\n\nFunction Description**\n\nComplete the *hurdleRace* function in the editor below.\n\nhurdleRace has the following parameter(s):\n\n* *int k*: the height the character can jump naturally\n\n* *int height[n]*: the heights of each hurdle\n\n**Returns**\n\n* *int:* the minimum number of doses required, always  or more\n\n**Input Format**\n\nThe first line contains two space-separated integers  and , the number of hurdles and the maximum height the character can jump naturally. **\nThe second line contains  space-separated integers  where .\n\nConstraints**\n\n*\n\n*\n\n**Sample Input 0**\n\n```\n5 4\n1 6 3 5 2\n\n```\n\n**Sample Output 0**\n\n```\n2\n\n```\n\n**Explanation 0**\n\nDan's character can jump a maximum of  units, but the tallest hurdle has a height of :\n\n![image](https://s3.amazonaws.com/hr-challenge-images/0/1485458269-d39e09fb78-hurdle.png)\n\nTo be able to jump all the hurdles, Dan must drink  doses.\n\n**Sample Input 1**\n\n```\n5 7\n2 5 4 5 2\n\n```\n\n**Sample Output 1**\n\n```\n0\n\n```\n\n**Explanation 1**\n\nDan's character can jump a maximum of  units, which is enough to cross all the hurdles:\n\n![image](https://s3.amazonaws.com/hr-challenge-images/0/1485458562-e680371e5a-hurdle1.png)\n\nBecause he can already jump all the hurdles, Dan needs to drink  doses.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-23T06:53:20.118Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "the-hurdle-race"
+}
