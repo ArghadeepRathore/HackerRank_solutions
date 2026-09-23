@@ -1,0 +1,15 @@
+{
+  "title": "Zipped!",
+  "title_slug": "zipped",
+  "difficulty": "Easy",
+  "language": "pypy3",
+  "url": "https://www.hackerrank.com/challenges/zipped/problem",
+  "tags": [],
+  "description": "**[zip([iterable, ...])](https://docs.python.org/2/library/functions.html#zip)**\n\nThis function returns a list of tuples. The th tuple contains the th element from each of the argument sequences or iterables.\n\nIf the argument sequences are of unequal lengths, then the returned list is truncated to the length of the shortest argument sequence.\n\n**Sample Code**\n\n```\n>>> print zip([1,2,3,4,5,6],'Hacker')\n[(1, 'H'), (2, 'a'), (3, 'c'), (4, 'k'), (5, 'e'), (6, 'r')]\n>>>\n>>> print zip([1,2,3,4,5,6],[0,9,8,7,6,5,4,3,2,1])\n[(1, 0), (2, 9), (3, 8), (4, 7), (5, 6), (6, 5)]\n>>>\n>>> A = [1,2,3]\n>>> B = [6,5,4]\n>>> C = [7,8,9]\n>>> X = [A] + [B] + [C]\n>>>\n>>> print zip(*X)\n[(1, 6, 7), (2, 5, 8), (3, 4, 9)]\n\n```\n\n**Task**\n\nThe National University conducts an examination of  students in  subjects. **\nYour task is to compute the *average scores* of each student.\n\nThe format for the general mark sheet is:\n\n```\nStudent ID → ___1_____2_____3_____4_____5__\nSubject 1   |  89    90    78    93    80\nSubject 2   |  90    91    85    88    86\nSubject 3   |  91    92    83    89    90.5\n            |______________________________\nAverage        90    91    82    90    85.5\n\n```\n\nInput Format**\n\nThe first line contains  and  separated by a space. **\nThe next  lines contains the space separated marks obtained by students in a particular subject.\n\nConstraints**\n\n **\n\nOutput Format**\n\nPrint the averages of all students on separate lines.\n\nThe averages must be correct up to  decimal place.\n\n**Sample Input**\n\n```\n5 3\n89 90 78 93 80\n90 91 85 88 86\n91 92 83 89 90.5\n\n```\n\n**Sample Output**\n\n```\n90.0\n91.0\n82.0\n90.0\n85.5\n\n```\n\n**Explanation**\n\nMarks obtained by **student 1**:   **\n Average marks of student 1**: **\n\nMarks obtained by student 2**:  **\n Average marks of student 2**: **\n\nMarks obtained by student 3**:  **\n Average marks of student 3**: **\n\nMarks obtained by student 4**:  **\n Average marks of student 4**: **\n\nMarks obtained by student 5**:  **\n Average marks of student 5**:",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-23T06:55:43.541Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "zipped"
+}
