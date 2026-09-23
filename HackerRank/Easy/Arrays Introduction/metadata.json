@@ -1,0 +1,15 @@
+{
+  "title": "Arrays Introduction",
+  "title_slug": "arrays-introduction",
+  "difficulty": "Easy",
+  "language": "cpp",
+  "url": "https://www.hackerrank.com/challenges/arrays-introduction/problem",
+  "tags": [],
+  "description": "An array is a series of elements of the same type placed in contiguous memory locations that can be individually referenced by adding an index to a unique identifier.\n\nFor arrays of a known size,  in this case, use the following declaration:\n\n```\nint arr[10]; //Declares an array named arr of size 10, i.e, you can\nstore 10 integers.\n\n```\n\n**Note**  Unlike C, C++ allows dynamic allocation of arrays at runtime without special calls like malloc().  If , `int arr[n]` will create an array with space for  integers.\n\nAccessing elements of an array:\n\n```\nIndexing in arrays starts from 0.So the first element is stored at\narr[0],the second element at arr[1] and so on through arr[9].\n\n```\n\nYou will be given an array of  integers and you have to print the integers in the reverse order.\n\n**Input Format**\n\nThe first line of the input contains ,where  is the number of integers.The next line contains  space-separated integers.\n\n**Constraints**\n\n, where  is the  integer in the array.\n\n**Output Format**\n\nPrint the  integers of the array in the reverse order, space-separated on a single line.\n\n**Sample Input**\n\n```\n4\n1 4 3 2\n\n```\n\n**Sample Output**\n\n```\n2 3 4 1\n\n```",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-23T07:00:46.831Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "arrays-introduction"
+}
