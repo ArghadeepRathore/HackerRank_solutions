@@ -1,0 +1,15 @@
+{
+  "title": "Python Evaluation",
+  "title_slug": "python-eval",
+  "difficulty": "Easy",
+  "language": "pypy3",
+  "url": "https://www.hackerrank.com/challenges/python-eval/problem",
+  "tags": [],
+  "description": "The `eval()` expression is a very powerful built-in function of Python. It helps in evaluating an expression. The expression can be a Python statement, or a code object.\n\nFor example:\n\n```\n>>> eval(\"9 + 5\")\n14\n>>> x = 2\n>>> eval(\"x + 3\")\n5\n\n```\n\nHere, `eval()` can also be used to work with Python keywords or defined functions and variables. These would normally be stored as strings.\n\nFor example:\n\n```\n>>> type(eval(\"len\"))\n<type 'builtin_function_or_method'>\n\n```\n\nWithout eval()\n\n```\n>>> type(\"len\")\n<type 'str'>\n\n```\n\n**Task** **\nYou are given an expression in a line. Read that line as a string variable, such as *var*, and print the result using *eval(var)*.\n\nNOTE**: Python2 users, please import `from __future__ import print_function`.\n\n**Constraint** **\nInput string is less than 100 characters.\n\nSample Input**\n\n```\nprint(2 + 3)\n\n```\n\n**Sample Output**\n\n```\n5\n\n```",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-23T06:55:28.684Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "python-eval"
+}
