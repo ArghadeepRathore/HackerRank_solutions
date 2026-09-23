@@ -1,0 +1,15 @@
+{
+  "title": "ginortS",
+  "title_slug": "ginorts",
+  "difficulty": "Medium",
+  "language": "python3",
+  "url": "https://www.hackerrank.com/challenges/ginorts/problem",
+  "tags": [],
+  "description": "You are given a string . **\n contains alphanumeric characters only.\n\n*\nYour task is to sort the string  in the following manner:\n\n* All sorted lowercase letters* are ahead of *uppercase letters*.\n\n* All sorted *uppercase letters* are ahead of digits.\n\n* All sorted *odd digits* are ahead of sorted *even digits*.\n\nInput Format**\n\nA single line of input contains the string .\n\n**Constraints**\n\n*\n\n**Output Format**\n\nOutput the sorted string .\n\n**Sample Input**\n\n```\nSorting1234\n\n```\n\n**Sample Output**\n\n```\nginortS1324\n\n```",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-23T06:55:02.692Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "ginorts"
+}
