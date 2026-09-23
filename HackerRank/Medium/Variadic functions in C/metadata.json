@@ -1,0 +1,15 @@
+{
+  "title": "Variadic functions in C",
+  "title_slug": "variadic-functions-in-c",
+  "difficulty": "Medium",
+  "language": "c",
+  "url": "https://www.hackerrank.com/challenges/variadic-functions-in-c/problem",
+  "tags": [],
+  "description": "Variadic functions are functions which take a variable number of arguments.  In C programming, a variadic function will contribute to the flexibility of the program that you are developing.\n\nThe declaration of a variadic function starts with the declaration of at least one named variable, and uses an ellipsis as the last parameter,\ne.g.\n\n```\nint printf(const char* format, ...);\n\n```\n\nIn this problem, you will implement three variadic functions named ,  and   to calculate sums, minima, maxima of a variable number of arguments.  The first argument passed to the variadic function is the count of the number of arguments, which is followed by the arguments themselves.\n\n**Input Format**\n\n* The first line of the input consists of an integer .\n\n* Each test case tests the logic of your code by sending a test implementation of 3, 5 and 10 elements respectively.\n\n* You can test your code against sample/custom input.\n\n* The error log prints the parameters which are passed to the test implementation. It also prints the sum, minimum element and maximum element corresponding to your code.\n\n**Constraints**\n\n **\n .\n\nOutput Format**\n\n\"Correct Answer\" is printed corresponding to each correct execution of a test implementation.\"Wrong Answer\" is printed otherwise.\n\n**Sample Input 0**\n\n```\n1\n\n```\n\n**Sample Output 0**\n\n```\nCorrect Answer\nCorrect Answer\nCorrect Answer\n\n```",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-23T06:59:34.135Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "variadic-functions-in-c"
+}
