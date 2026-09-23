@@ -1,0 +1,15 @@
+{
+  "title": "Encryption",
+  "title_slug": "encryption",
+  "difficulty": "Medium",
+  "language": "cpp",
+  "url": "https://www.hackerrank.com/challenges/encryption/problem",
+  "tags": [],
+  "description": "An English text needs to be encrypted using the following encryption scheme. **\nFirst, the spaces are removed from the text. Let  be the length of this text.\n\nThen, characters are written into a grid, whose rows and columns have the following constraints:\n\nExample**\n\nAfter removing spaces, the string is  characters long.   is between  and , so it is written in the form of a grid with 7 rows and 8 columns.\n\n```\nifmanwas\nmeanttos\ntayonthe\ngroundgo\ndwouldha\nvegivenu\nsroots\n\n```\n\n* Ensure that\n\n* If multiple grids satisfy the above conditions, choose the one with the minimum area, i.e. .\n\nThe encoded message is obtained by displaying the characters of each column, with a space between column texts. The encoded message for the grid above is:\n\n`imtgdvs fearwer mayoogo anouuio ntnnlvt wttddes aohghn sseoau`\n\nCreate a function to encode a message.\n\n**Function Description**\n\nComplete the *encryption* function in the editor below.\n\nencryption has the following parameter(s):\n\n* *string s:* a string to encrypt\n\n**Returns**\n\n* *string:* the encrypted string\n\n**Input Format**\n\nOne line of text, the string\n\n**Constraints**\n\n **\n contains characters in the range ascii[a-z] and space, ascii(32).\n\nSample Input**\n\n```\nhaveaniceday\n\n```\n\n**Sample Output 0**\n\n```\nhae and via ecy\n\n```\n\n**Explanation 0**\n\n,  is between  and . **\nRewritten with  rows and  columns:\n\n```\nhave\nanic\neday\n\n```\n\nSample Input 1**\n\n```\nfeedthedog\n\n```\n\n**Sample Output 1**\n\n```\nfto ehg ee dd\n\n```\n\n**Explanation 1**\n\n,  is between  and . **\nRewritten with  rows and  columns:\n\n```\nfeed\nthed\nog\n\n```\n\nSample Input 2**\n\n```\nchillout\n\n```\n\n**Sample Output 2**\n\n```\nclu hlt io\n\n```\n\n**Explanation 2**\n\n,  is between  and .\n\nRewritten with  columns and  rows ( so we have to use .)\n\n```\nchi\nllo\nut\n\n```",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-23T06:53:33.641Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "encryption"
+}
