@@ -1,0 +1,15 @@
+{
+  "title": "Playing With Characters",
+  "title_slug": "playing-with-characters",
+  "difficulty": "Easy",
+  "language": "c",
+  "url": "https://www.hackerrank.com/challenges/playing-with-characters/problem",
+  "tags": [],
+  "description": "**Objective**\n\nThis challenge will help you to learn how to take a character, a string and a sentence as input in C.\n\nTo take a single character  as input, you can use `scanf(\"%c\", &ch );` and `printf(\"%c\", ch)` writes a character specified by the argument char to stdout\n\n```\nchar ch;\nscanf(\"%c\", &ch);\nprintf(\"%c\", ch);\n\n```\n\nThis piece of code prints the character .\n\nYou can take a string as input in C using `scanf(“%s”, s)`. But, it accepts string only until it finds the first space.\n\nIn order to take a line as input, you can use `scanf(\"%[^\\n]%*c\", s);` where   is defined as `char s[MAX_LEN]` where  is the maximum size of . Here, `[]` is the scanset character. `^\\n` stands for taking input until a newline isn't encountered. Then, with this `%*c`, it reads the newline character and here, the used `*` indicates that this newline character is discarded.\n\n**Note:** The statement: `scanf(\"%[^\\n]%*c\", s);` will not work because the last statement will read a newline character, `\\n`, from the previous line. This can be handled in a variety of ways.  One way is to use `scanf(\"\\n\");` before the last statement.\n\n**Task**\n\nYou have to print the character, , in the first line. Then print  in  next line. In the last line print the sentence, .\n\n**Input Format**\n\nFirst, take a character,  as input. **\nThen take the string,  as input.\n\nLastly, take the sentence  as input.\n\nConstraints**\n\nStrings for  and  will have fewer than 100 characters, including the newline.\n\n**Output Format**\n\nPrint three lines of output. The first line prints the character, . **\nThe second line prints the string, .\n\nThe third line prints the sentence, .\n\nSample Input 0**\n\n```\nC\nLanguage\nWelcome To C!!\n\n```\n\n**Sample Output 0**\n\n```\nC\nLanguage\nWelcome To C!!\n\n```",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-23T07:04:46.615Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "playing-with-characters"
+}
