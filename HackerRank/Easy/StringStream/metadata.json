@@ -1,0 +1,15 @@
+{
+  "title": "StringStream",
+  "title_slug": "c-tutorial-stringstream",
+  "difficulty": "Easy",
+  "language": "cpp",
+  "url": "https://www.hackerrank.com/challenges/c-tutorial-stringstream/problem",
+  "tags": [],
+  "description": "In this challenge, we work with *string streams*.\n\n*stringstream* is a stream class to operate on strings. It implements input/output operations on memory (string) based streams. *stringstream* can be helpful in different type of parsing. The following operators/functions are commonly used here\n\n* *Operator >>* Extracts formatted data.\n\n* *Operator <<* Inserts formatted data.\n\n* *Method str()* Gets the contents of underlying string device object.\n\n* *Method str(string)* Sets the contents of underlying string device object.\n\nIts header file is *sstream*.\n\nOne common use of this class is to parse comma-separated integers from a string (e.g., \"23,4,56\").\n\n```\nstringstream ss(\"23,4,56\");\nchar ch;\nint a, b, c;\nss >> a >> ch >> b >> ch >> c;  // a = 23, b = 4, c = 56\n\n```\n\nHere  is a storage area for the discarded commas.\n\nIf the `>>` operator returns a value, that is a true value for a conditional.  Failure to return a value is false.\n\nGiven a string of comma delimited integers, return a vector of integers.\n\n**Function Description**\n\nComplete the *parseInts* function in the editor below.\n\n*parseInts* has the following parameters:\n\n* *string str:* a string of comma separated integers\n\n**Returns**\n\n* *vector<int>:* a vector of the parsed integers.\n\n**Note** You can learn to push elements onto a vector by solving the first problem in the STL chapter.\n\n**Input Format**\n\nThere is one line of  integers separated by commas.\n\n**Constraints**\n\nThe length of  is less than .\n\n**Sample Input**\n\n```\n23,4,56\n\n```\n\n**Sample Output**\n\n```\n23\n4\n56\n\n```",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-23T06:58:58.131Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "c-tutorial-stringstream"
+}
