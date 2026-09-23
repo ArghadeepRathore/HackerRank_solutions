@@ -1,0 +1,15 @@
+{
+  "title": "Maximize It!",
+  "title_slug": "maximize-it",
+  "difficulty": "Hard",
+  "language": "python3",
+  "url": "https://www.hackerrank.com/challenges/maximize-it/problem",
+  "tags": [],
+  "description": "You are given a function . You are also given  lists. The  list consists of  elements.\n\nYou have to pick one element from each list so that the value from the equation below is *maximized*: **\n\n%\n\n denotes the element picked from the  list . Find the maximized value   obtained.\n\n denotes the modulo operator.\n\nNote that you need to take exactly one element from each list, not necessarily the largest element. You add the squares of the chosen elements and perform the modulo operation. The maximum value that you can obtain, will be the answer to the problem.\n\nInput Format**\n\nThe first line contains  space separated integers  and . **\nThe next  lines each contains an integer , denoting the number of elements in the  list, followed by  space separated integers denoting the elements in the list.\n\nConstraints**\n\n **\n\nOutput Format**\n\nOutput a single integer denoting the value .\n\n**Sample Input**\n\n```\n3 1000\n2 5 4\n3 7 8 9\n5 5 7 8 9 10\n\n```\n\n**Sample Output**\n\n```\n206\n\n```\n\n**Explanation**\n\nPicking  from the st list,  from the nd list and  from the rd list gives the maximum  value equal to % = .",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-23T06:54:55.313Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "maximize-it"
+}
