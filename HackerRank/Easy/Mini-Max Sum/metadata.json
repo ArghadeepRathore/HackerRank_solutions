@@ -1,0 +1,15 @@
+{
+  "title": "Mini-Max Sum",
+  "title_slug": "mini-max-sum",
+  "difficulty": "Easy",
+  "language": "c",
+  "url": "https://www.hackerrank.com/challenges/mini-max-sum/problem",
+  "tags": [],
+  "description": "Given five positive integers, find the minimum and maximum values that can be calculated by summing exactly four of the five integers. Then print the respective minimum and maximum values as a single line of two space-separated long integers.\n\n**Example** **\n\nThe minimum sum is  and the maximum sum is .  The function prints\n\n```\n16 24\n\n```\n\nFunction Description**\n\nComplete the  function with the following parameter(s):\n\n* : an array of  integers\n\n**Print**\n\nPrint two space-separated integers on one line: the minimum sum and the maximum sum of  of  elements.No value should be returned.\n\n**Note** For some languages, like C, C++, and Java, the sums may require that you use a long integer due to their size.\n\n**Input Format**\n\nA single line of five space-separated integers.\n\n**Constraints**\n\n**Sample Input**\n\n```\n1 2 3 4 5\n\n```\n\n**Sample Output**\n\n```\n10 14\n\n```\n\n**Explanation**\n\nThe numbers are , , , , and . Calculate the following sums using four of the five integers:\n\n* Sum everything except , the sum is .\n\n* Sum everything except , the sum is .\n\n* Sum everything except , the sum is .\n\n* Sum everything except , the sum is .\n\n* Sum everything except , the sum is .\n\n**Hints:** Beware of integer overflow! Use a 64-bit integer to store the sums.\n\nNeed help to get started? Try the [Solve Me First](https://www.hackerrank.com/challenges/solve-me-first) problem.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-23T07:00:07.122Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "mini-max-sum"
+}
