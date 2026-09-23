@@ -1,0 +1,15 @@
+{
+  "title": "Conditional Statements",
+  "title_slug": "c-tutorial-conditional-if-else",
+  "difficulty": "Easy",
+  "language": "cpp",
+  "url": "https://www.hackerrank.com/challenges/c-tutorial-conditional-if-else/problem",
+  "tags": [],
+  "description": "*if* and *else* are two of the most frequently used conditionals in C/C++, and they enable you to execute zero or one conditional statement among many such dependent conditional statements. We use them in the following ways:\n\n*\n*if:* This executes the body of bracketed code starting with  if  evaluates to *true*.\n ``` if (condition) { statement1; ... } ```\n\n*\n*if - else:* This executes the body of bracketed code starting with  if  evaluates to *true*, or it executes the body of code starting with  if  evaluates to *false*. Note that only *one* of the bracketed code sections will ever be executed.\n ``` if (condition) { statement1; ... } else { statement2; ... } ```\n\n*\n*if - else if - else:* In this structure, dependent statements are chained together and the  for each statement is only checked if all prior conditions in the chain evaluated to *false*. Once a  evaluates to *true*, the bracketed code associated with that statement is executed and the program then skips to the end of the chain of statements and continues executing. If each  in the chain evaluates to false, then the body of bracketed code in the *else* block at the end is executed.\n ``` if(first condition) { ... } else if(second condition) { ... } . . . else if((n-1)'th condition) { .... } else { ... } ```\n\nGiven a positive integer , do the following:\n\n* If , print the lowercase English word corresponding to the number (e.g., `one` for , `two` for , etc.).\n\n* If , print `Greater than 9`.\n\n**Input Format**\n\nA single integer, .\n\n**Constraints**\n\n*\n\n**Output Format**\n\nIf , then print the lowercase English word corresponding to the number (e.g., `one` for , `two` for , etc.); otherwise, print `Greater than 9`.\n\n**Sample Input 0**\n\n```\n5\n\n```\n\n**Sample Output 0**\n\n```\nfive\n\n```\n\n**Explanation 0**\n\n`five` is the English word for the number .\n\n**Sample Input 1**\n\n```\n8\n\n```\n\n**Sample Output 1**\n\n```\neight\n\n```\n\n**Explanation 1**\n\n`eight` is the English word for the number .\n\n**Sample Input 2**\n\n```\n44\n\n```\n\n**Sample Output 2**\n\n```\nGreater than 9\n\n```\n\n**Explanation 2**\n\n is greater than , so we print `Greater than 9`.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-23T07:01:13.264Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "c-tutorial-conditional-if-else"
+}
