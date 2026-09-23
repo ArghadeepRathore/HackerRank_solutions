@@ -1,0 +1,15 @@
+{
+  "title": "Basic Data Types",
+  "title_slug": "c-tutorial-basic-data-types",
+  "difficulty": "Easy",
+  "language": "cpp",
+  "url": "https://www.hackerrank.com/challenges/c-tutorial-basic-data-types/problem",
+  "tags": [],
+  "description": "Some *C++* data types, their format specifiers, and their most common bit widths are as follows:\n\n* *Int (\"%d\"):* 32 Bit integer\n\n* *Long (\"%ld\"):* 64 bit integer\n\n* *Char (\"%c\"):* Character type\n\n* *Float (\"%f\"):* 32 bit real value\n\n* *Double (\"%lf\"):* 64 bit real value\n\n**Reading** **\nTo read a data type, use the following syntax:\n\n```\nscanf(\"`format_specifier`\", &val)\n\n```\n\nFor example, to read a *character* followed by a *double*:\n\n```\nchar ch;\ndouble d;\nscanf(\"%c %lf\", &ch, &d);\n\n```\n\nFor the moment, we can ignore the spacing between format specifiers.\n\nPrinting** **\nTo print a data type, use the following syntax:\n\n```\nprintf(\"`format_specifier`\", val)\n\n```\n\nFor example, to print a *character* followed by a *double*:\n\n```\nchar ch = 'd';\ndouble d = 234.432;\nprintf(\"%c %lf\", ch, d);\n\n```\n\nNote:** You can also use *cin* and *cout* instead of *scanf* and *printf*; however, if you are taking a million numbers as input and printing a million lines, it is faster to use *scanf* and *printf*.\n\n**Input Format**\n\nInput consists of the following space-separated values: *int*, *long*, *char*, *float*, and *double*, respectively.\n\n**Output Format**\n\nPrint each element on a new line in the same order it was received as input. Note that the floating point value should be correct up to 3 decimal places and the double to 9 decimal places.\n\n**Sample Input**\n\n```\n3 12345678912345 a 334.23 14049.30493\n\n```\n\n**Sample Output**\n\n```\n3\n12345678912345\na\n334.230\n14049.304930000\n\n```\n\n**Explanation**\n\nPrint *int* ,\n\nfollowed by *long* ,\n\nfollowed by *char* ,\n\nfollowed by *float* ,\n\nfollowed by *double* .",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-23T07:01:20.060Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "c-tutorial-basic-data-types"
+}
