@@ -1,0 +1,15 @@
+{
+  "title": "Sansa and XOR",
+  "title_slug": "sansa-and-xor",
+  "difficulty": "Medium",
+  "language": "cpp",
+  "url": "https://www.hackerrank.com/challenges/sansa-and-xor/problem",
+  "tags": [],
+  "description": "Sansa has an array. She wants to find the value obtained by [XOR](http://en.wikipedia.org/wiki/XOR#Bitwise_operation)-ing the contiguous subarrays, followed by [XOR](http://en.wikipedia.org/wiki/XOR#Bitwise_operation)-ing the values thus obtained. Determine this value.\n\n**Example** **\n\n```\nSubarray\tOperation\tResult\n3\t\tNone\t\t3\n4\t\tNone\t\t4\n5\t\tNone\t\t5\n3,4\t\t3 XOR 4\t\t7\n4,5\t\t4 XOR 5\t\t1\n3,4,5\t\t3 XOR 4 XOR 5\t2\n\n```\n\nNow we take the resultant values and XOR them together:\n\n.  Return .\n\nFunction Description**\n\nComplete the *sansaXor* function in the editor below.\n\nsansaXor has the following parameter(s):\n\n* *int arr[n]:* an array of integers\n\n**Returns**\n\n* *int:* the result of calculations\n\n**Input Format**\n\nThe first line contains an integer , the number of the test cases.\n\nEach of the next  pairs of lines is as follows: **\n- The first line of each test case contains an integer , the number of elements in .\n\n- The second line of each test case contains  space-separated integers .\n\nConstraints**\n\n **\n\nSample Input 0**\n\n```\n2\n3\n1 2 3\n4\n4 5 7 5\n\n```\n\n**Sample Output 0**\n\n```\n2\n0\n\n```\n\n**Explanation 0**\n\n*Test case 0:* **\n\n*Test case 1:*\n\nSample Input 1**\n\n```\n2\n3\n98 74 12\n3\n50 13 2\n\n```\n\n**Sample Output 1**\n\n```\n110\n48\n\n```\n\n**Explanation 1**\n\n*Test Case 0:*\n\n*Test Case 1:*",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-23T06:54:12.742Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "sansa-and-xor"
+}
