@@ -1,0 +1,15 @@
+{
+  "title": "Hello World",
+  "title_slug": "fp-hello-world",
+  "difficulty": "Easy",
+  "language": "clojure",
+  "url": "https://www.hackerrank.com/challenges/fp-hello-world/problem",
+  "tags": [],
+  "description": "A \"*Hello World*\" program has been widely adopted as the introductory program for learning how to code. So, let's start functional programming by writing the same program.\n\n**\nSample Input**\n\n```\n(Nil)\n\n```\n\n**Sample Output**\n\n```\nHello World\n\n```\n\n**Method Signature**\n\n```\nNumber Of Parameters: 0\nParameters: []\nReturns: nil\nBehavior: Prints \"Hello World\"\n\n```\n\n**For Hackers Using Clojure**\n\nThis will be the outline of your function body. Fill in the blank portion marked by the underscores.\n\n```\n (___________________________)\n\n```\n\n**For Hackers Using Scala**\n\nThis will be the outline of your function body. Fill in the blank portion marked by the underscores.\n\n```\n def f() = ________________\n\n```",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-23T07:04:56.086Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "fp-hello-world"
+}
