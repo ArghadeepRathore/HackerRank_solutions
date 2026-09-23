@@ -1,0 +1,15 @@
+{
+  "title": "Dynamic Array in C",
+  "title_slug": "dynamic-array-in-c",
+  "difficulty": "Medium",
+  "language": "c",
+  "url": "https://www.hackerrank.com/challenges/dynamic-array-in-c/problem",
+  "tags": [],
+  "description": "Snow Howler is the librarian at the central library of the city of HuskyLand.  He must handle requests which come in the following forms:\n\n*1 x y* : Insert a book with  pages at the end of the  shelf.\n\n*2 x y* : Print the number of pages in the  book on the  shelf.\n\n*3 x* : Print the number of books on the  shelf.\n\nSnow Howler has got an assistant, Oshie, provided by the Department of Education.  Although inexperienced, Oshie can handle all of the queries of types *2* and *3*.\n\nHelp Snow Howler deal with all the queries of type *1*.\n\nOshie has used two arrays:\n\n```\nint* total_number_of_books;\n/*\n * This stores the total number of books on each shelf.\n */\n\nint** total_number_of_pages;\n/*\n * This stores the total number of pages in each book of each shelf.\n * The rows represent the shelves and the columns represent the books.\n */\n\n```\n\n**Input Format**\n\nThe first line contains an integer , the number of shelves in the library. **\nThe second line contains an integer , the number of requests.\n\nEach of the following  lines contains a request in one of the three specified formats.\n\nConstraints**\n\n*\n\n*\n\n* For each query of the second type, it is guaranteed that a book is present on the  shelf at  index.\n\n*\n\n* Both the shelves and the books are numbered starting from 0.\n\n* Maximum number of books per shelf .\n\n**Output Format**\n\nWrite the logic for the requests of type 1.  The logic for requests of types 2 and 3 are provided.\n\n**Sample Input 0**\n\n```\n5\n5\n1 0 15\n1 0 20\n1 2 78\n2 2 0\n3 0\n\n```\n\n**Sample Output 0**\n\n```\n78\n2\n\n```\n\n**Explanation 0**\n\nThere are  shelves and  requests, or queries.\n\n- 1 Place a  page book at the end of shelf .\n\n- 2 Place a  page book at the end of shelf .\n\n- 3 Place a  page book at the end of shelf .\n\n- 4 The number of pages in the  book on the  shelf is 78.\n\n- 5 The number of books on the  shelf is 2.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-23T07:01:40.122Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "dynamic-array-in-c"
+}
