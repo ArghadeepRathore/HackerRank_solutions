@@ -1,0 +1,7 @@
+// HackerRank Problem: Python Evaluation
+// Link: https://www.hackerrank.com/challenges/python-eval/problem
+// Difficulty: Easy
+// Language: pypy3
+
+S = input()
+eval(S)
