@@ -1,0 +1,15 @@
+{
+  "title": "Any or All",
+  "title_slug": "any-or-all",
+  "difficulty": "Easy",
+  "language": "python3",
+  "url": "https://www.hackerrank.com/challenges/any-or-all/problem",
+  "tags": [],
+  "description": "### [any()](https://docs.python.org/2/library/functions.html#any)\n\nThis expression returns `True` if **any** element of the iterable is true. **\nIf the iterable is empty, it will return `False`.\n\nCode**\n\n```\n>>> any([1>0,1==0,1<0])\nTrue\n>>> any([1<0,2<1,3<2])\nFalse\n\n```\n\n### [all()](https://docs.python.org/2/library/functions.html#all)\n\nThis expression returns `True` if **all** of the elements of the iterable are true. If the iterable is empty, it will return `True`.\n\n**Code**\n\n```\n>>> all(['a'<'b','b'<'c'])\nTrue\n>>> all(['a'<'b','c'<'b'])\nFalse\n\n```\n\n**Task**\n\nYou are given a space separated list of integers. If all the integers are positive, then you need to check if any integer is a [palindromic integer](https://en.wikipedia.org/wiki/Palindromic_number).\n\n**Input Format**\n\nThe first line contains an integer .  is the total number of integers in the list. **\nThe second line contains the space separated list of  integers.\n\nConstraints**\n\n**Output Format**\n\nPrint `True` if all the conditions of the problem statement are satisfied. Otherwise, print `False`.\n\n**Sample Input**\n\n```\n5\n12 9 61 5 14\n\n```\n\n**Sample Output**\n\nTrue\n\n**Explanation**\n\n**Condition 1**: All the integers in the list are positive. **\nCondition 2**: 5 is a palindromic integer.\n\nHence, the output is `True`.\n\n*Can you solve this challenge in `3 lines of code or less`?\n\nThere is `no penalty` for solutions that are correct but have more than 3 lines.*",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-23T06:55:13.724Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "any-or-all"
+}
