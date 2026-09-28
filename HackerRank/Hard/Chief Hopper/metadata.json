@@ -1,0 +1,15 @@
+{
+  "title": "Chief Hopper",
+  "title_slug": "chief-hopper",
+  "difficulty": "Hard",
+  "language": "cpp",
+  "url": "https://www.hackerrank.com/challenges/chief-hopper/problem",
+  "tags": [],
+  "description": "Chief's bot is playing an old DOS based game.  There is a row of buildings of different heights arranged at each index along a number line.  The bot starts at building  and at a height of .  You must determine the minimum energy his bot needs at the start so that he can jump to the top of each building without his energy going below zero.\n\nUnits of height relate directly to units of energy.  The bot's energy level is calculated as follows:\n\n* If the bot's  is less than the height of the building, his\n\n* If the bot's  is greater than the height of the building, his\n\n**Example**\n\nStarting with , we get the following table:\n\n```\n    botEnergy   height  delta\n    4               2       +2\n    6               3       +3\n    9               4       +5\n    14              3       +11\n    25              2       +23\n    48\n\n```\n\nThat allows the bot to complete the course, but may not be the minimum starting value.  The minimum starting  in this case is .\n\n**Function Description**\n\nComplete the *chiefHopper* function in the editor below.\n\nchiefHopper has the following parameter(s):\n\n* *int arr[n]:* building heights\n\n**Returns**\n\n* *int:* the minimum starting\n\n**Input Format**\n\nThe first line contains an integer , the number of buildings.\n\nThe next line contains  space-separated integers , the heights of the buildings.\n\n**Constraints**\n\n*\n\n*  where\n\n**Sample Input 0**\n\n```\n5\n3 4 3 2 4\n\n```\n\n**Sample Output 0**\n\n```\n4\n\n```\n\n**Explanation 0**\n\nIf initial energy is 4, after step 1 energy is 5, after step 2 it's 6, after step 3 it's 9 and after step 4 it's 16, finally at step 5 it's 28. **\nIf initial energy were 3 or less, the bot could not complete the course.\n\nSample Input 1**\n\n```\n3\n4 4 4\n\n```\n\n**Sample Output 1**\n\n```\n4\n\n```\n\n**Explanation 1**\n\nIn the second test case if bot has energy 4, it's energy is changed by (4 - 4 = 0) at every step and remains 4.\n\n**Sample Input 2**\n\n```\n3\n1 6 4\n\n```\n\n**Sample Output 2**\n\n```\n3\n\n```\n\n**Explanation 2**\n\n```\nbotEnergy   height  delta\n3           1       +2\n5           6       -1\n4           4       0\n4\n\n```\n\nWe can try lower values to assure that they won't work.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-28T05:56:50.830Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "chief-hopper"
+}
